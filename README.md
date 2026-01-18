@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 # Daemo-Bounty---Gmail-API
-=======
-# Daemo-Bounty - Gmail Assistant Agent
 
 Aarush K's submission for the Daemo Bounty (Gmail API).
 
@@ -113,4 +110,3 @@ npm start
 
 *   **Raw Emails**: The agent is designed to process email content for summarization but avoids displaying raw JSON dumps.
 *   **Draft Mode**: Replies are only *drafted*, never sent automatically, giving you full control.
->>>>>>> d6c7123 (done)
