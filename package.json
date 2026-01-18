@@ -1,25 +1,22 @@
 {
-  "name": "gmailapi_bounty",
+  "name": "gmail-agent-bounty",
   "version": "1.0.0",
-  "description": "",
+  "description": "AI email assistant using Gmail API and Daemo SDK",
   "main": "index.js",
   "scripts": {
+    "start": "npx ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "daemo-engine": "^0.2.4",
-    "dotenv": "^17.2.3",
-    "googleapis": "^170.1.0",
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0",
     "reflect-metadata": "^0.2.2",
-    "zod": "^4.3.5"
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@types/node": "^25.0.9",
+    "@types/node": "^20.11.19",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.3.3"
   }
 }
